@@ -1,0 +1,17 @@
+# Files to ignore when uploading source for gcloud builds
+# Keep local secrets out of build context but include `family_context.json` explicitly
+
+.git
+.gitignore
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+credentials.json
+token.json
+.env
+.DS_Store
+
+# Ensure family_context.json is included in the build context
+!family_context.json
