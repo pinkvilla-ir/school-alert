@@ -46,6 +46,9 @@ tempCodeRunnerFile.py
 # Logs and local runtime
 *.log
 uvicorn.log
+*.log.*
+*.out
+*.err
 alerts.log
 email_log.json
 
